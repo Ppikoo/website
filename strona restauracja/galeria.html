@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Homepage</title>
+    <style>
+        .mbox {
+            width: 20%
+        }
+
+        a:hover {
+            color: rgb(253, 158, 103)
+        }
+
+        a {
+            color: black;
+            text-decoration-style: double;
+        }
+
+        div {
+            display: flex
+        }
+
+        #bbox1:hover,
+        #bbox2:hover,
+        #bbox3:hover,
+        #bbox4:hover,
+        #bbox5:hover {
+            background-color: rgb(133, 58, 9);
+        }
+
+        #bbox1,
+        #bbox2,
+        #bbox3,
+        #bbox4,
+        #bbox5 {
+
+
+            flex: 1;
+
+            background-color: rgb(88, 47, 28);
+            margin: 0;
+            font-size: 25px
+        }
+
+        #baner {
+            width: 100%;
+            margin: 0;
+            position: fixed;
+            top: 0px
+        }
+
+        #center {}
+
+        #foot {
+            flex: 1;
+            position: fixed;
+            bottom: 0px;
+            background-color: black;
+            color: antiquewhite;
+            border: 2px solid:rgb(0, 0, 10);
+            width: 600px
+        }
+
+        #disc1 {
+            font-size: 4em;
+            color: antiquewhite;
+            margin-top: 100px;
+            padding-left: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #cleft {
+            flex: 1;
+            float: left;
+            display: block
+        }
+
+        img {
+            float: left;
+        }
+
+        #cright {
+            flex: 1;
+            margin-top: 200px;
+            color: antiquewhite;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 3em;
+        }
+
+        .stock {
+            margin: 15px
+        }
+    </style>
+
+</head>
+
+<body style="background-color: black;">
+    <div style="background-color: black;">
+        <div id="baner">
+            <div id="logo"><img src="./lorem-ipsum.jpg" alt="latin is too hard"></div>
+            <div id="bbox1" class="bbox">
+                <p style="text-align: center; width:100%"><a href="./galeria.html">galeria</a></p>
+            </div>
+            <div id="bbox2" class="bbox">
+                <p style="text-align: center; width:100%"><a href="./kontakt.html">kontakt</a></p>
+            </div>
+            <div id="bbox3" class="bbox">
+                <p style="text-align: center; width:100%"><a href="./menu.html">menu</a></p>
+            </div>
+
+            <div id="bbox5" class="bbox">
+                <p style="text-align: center; width:100%;"><a href="./index.html">strona główna</a></p>
+            </div>
+        </div>
+
+        <div id="center">
+            <div id="cleft">
+                <img src="./stock1.jpg" alt="" class="stock">
+                <img src="./stock2.jpg" alt="" class="stock">
+                <img src="./stock3.jpg" alt="" class="stock">
+
+            </div>
+            <div id="cright">
+                <div>przykładowy opis zdjęcia bo nie wiem jak to wyjdzie w praniu<br><br><br><br><br><br><br> opis
+                    drugiego zdjęcia też jest ciekawy<br><br><br><br><br><br> stężenie lorem ipsum zwiększamy opisem trzeciego zdjęcia</div>
+
+
+            </div>
+
+        </div>
+
+    </div>
